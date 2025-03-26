@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a0a23;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.container {
+    background-color: #fff;
+    color: #0a0a23;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: 400px;
+    transition: all 0.3s ease-in-out;
+}
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.checker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    font-size: large;
+    transition: box-shadow 0.2s ease-in-out;
+}
+input:focus {
+    box-shadow: 0 0 8px rgba(106, 13, 173, 0.8);
+    border-color: #6a0dad;
+}
+button {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+button:hover {
+    background-color: #5a0cad;
+}
+#result-div {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.valid {
+    background-color: #00471b;
+    color: #b9f6ca;
+    border-left: 5px solid #00e676;
+}
+.invalid {
+    background-color: #4b0000;
+    color: #ff8a80;
+    border-left: 5px solid #ff1744;
+}
+.info {
+    background-color: #00471b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 10px;
+    text-align: left;
+}
+.info p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.clear-btn {
+    background-color: #d9534f;
+}
+.clear-btn:hover {
+    background-color: #c9302c;
+}
